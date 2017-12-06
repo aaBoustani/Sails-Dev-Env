@@ -17,7 +17,9 @@
  * The same command-line arguments are supported, e.g.:
  * `node app.js --silent --port=80 --prod`
  */
-
+/* eslint no-console: */
+/* eslint global-require: */
+/* eslint import/no-unresolved: */
 
 // Ensure we're in the project directory, so cwd-relative paths work as expected
 // no matter where we actually lift from.
@@ -25,7 +27,7 @@
 process.chdir(__dirname);
 
 // Attempt to import `sails`.
-var sails;
+let sails;
 try {
   sails = require('sails');
 } catch (e) {
@@ -40,7 +42,7 @@ try {
 
 // --•
 // Try to get `rc` dependency (for loading `.sailsrc` files).
-var rc;
+let rc;
 try {
   rc = require('rc');
 } catch (e0) {
@@ -51,7 +53,7 @@ try {
     console.error('Your `.sailsrc` file(s) will be ignored.');
     console.error('To resolve this, run:');
     console.error('npm install rc --save');
-    rc = function () { return {}; };
+    rc = () => {};
   }
 }
 
