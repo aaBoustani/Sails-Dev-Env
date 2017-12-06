@@ -9,6 +9,7 @@
  * any private information to this file!
  *
  */
+/* eslint spaced-comment: */
 
 module.exports = {
 
