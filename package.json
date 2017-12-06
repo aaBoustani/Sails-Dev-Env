@@ -1,0 +1,32 @@
+{
+  "name": "Sails-Dev-Env",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails Development Environment",
+  "keywords": ["sailsjs", "development-environment"],
+  "dependencies": {
+    "include-all": "^1.0.0",
+    "rc": "1.0.1",
+    "sails": "~0.12.13",
+    "sails-disk": "~0.10.9"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AhmedBoustani/Sails-Dev-Env.git"
+  },
+  "author": "Ahmed Amine Boustani",
+  "license": "",
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
