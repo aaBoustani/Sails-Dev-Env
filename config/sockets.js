@@ -9,6 +9,7 @@
  * For more information on sockets configuration, including advanced config options, see:
  * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.sockets.html
  */
+/* eslint spaced-comment: */
 
 module.exports.sockets = {
 
@@ -51,8 +52,7 @@ module.exports.sockets = {
   // pass: '<redis auth password>',
 
 
-
- /***************************************************************************
+  /***************************************************************************
   *                                                                          *
   * Whether to expose a 'get /__getcookie' route with CORS support that sets *
   * a cookie (this is used by the sails.io.js socket client to get access to *
@@ -66,7 +66,6 @@ module.exports.sockets = {
   ***************************************************************************/
 
   // grant3rdPartyCookie: true,
-
 
 
   /***************************************************************************

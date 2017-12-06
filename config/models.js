@@ -8,6 +8,7 @@
  * For more info on Sails models, see:
  * http://sailsjs.org/#!/documentation/concepts/ORM
  */
+/* eslint spaced-comment: */
 
 module.exports.models = {
 

@@ -22,6 +22,7 @@
  * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.blueprints.html
  *
  */
+/* eslint spaced-comment: */
 
 module.exports.blueprints = {
 
@@ -126,7 +127,7 @@ module.exports.blueprints = {
   *                                                                          *
   ***************************************************************************/
 
-  // pluralize: false,
+  pluralize: false,
 
   /***************************************************************************
   *                                                                          *
@@ -138,7 +139,7 @@ module.exports.blueprints = {
   *                                                                          *
   ***************************************************************************/
 
-  // populate: true,
+  populate: false
 
   /****************************************************************************
   *                                                                           *

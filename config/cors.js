@@ -25,6 +25,7 @@
  *  http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.cors.html
  *
  */
+/* eslint spaced-comment: */
 
 module.exports.cors = {
 

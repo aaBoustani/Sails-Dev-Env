@@ -3,12 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "description": "a Sails Development Environment",
-  "keywords": ["sailsjs", "development-environment"],
+  "keywords": [
+    "sailsjs",
+    "development-environment"
+  ],
   "dependencies": {
     "include-all": "^1.0.0",
     "rc": "1.0.1",
     "sails": "~0.12.13",
-    "sails-disk": "~0.10.9"
+    "sails-disk": "~0.10.9",
+    "sails-mongo": "^0.12.2"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -20,7 +24,7 @@
     "url": "git://github.com/AhmedBoustani/Sails-Dev-Env.git"
   },
   "author": "Ahmed Amine Boustani",
-  "license": "",
+  "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^8.0.3",
     "babel-preset-env": "^1.6.1",

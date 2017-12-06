@@ -11,6 +11,7 @@
  * For more information on configuring the session, check out:
  * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.session.html
  */
+/* eslint spaced-comment: */
 
 module.exports.session = {
 
@@ -21,7 +22,7 @@ module.exports.session = {
   * of your users, forcing them to log in again.                             *
   *                                                                          *
   ***************************************************************************/
-  secret: 'a84af99706da75ada1a791dce2f54d56',
+  secret: 'a84af99706da75ada1a791dce2f54d56'
 
 
   /***************************************************************************

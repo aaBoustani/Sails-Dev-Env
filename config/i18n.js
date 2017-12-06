@@ -14,6 +14,7 @@
  *
  *
  */
+/* eslint spaced-comment: */
 
 module.exports.i18n = {
 

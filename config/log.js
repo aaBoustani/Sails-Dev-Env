@@ -9,6 +9,7 @@
  * For more information on the Sails logger, check out:
  * http://sailsjs.org/#!/documentation/concepts/Logging
  */
+/* eslint spaced-comment: */
 
 module.exports.log = {
 
