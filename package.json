@@ -1,6 +1,6 @@
 {
   "name": "Sails-Dev-Env",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "description": "a Sails Development Environment",
   "keywords": [
@@ -16,7 +16,9 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "lint": "./node_modules/.bin/eslint .",
+    "doc": "./node_modules/.bin/apidoc -o ./apidoc -i"
   },
   "main": "app.js",
   "repository": {
@@ -26,6 +28,7 @@
   "author": "Ahmed Amine Boustani",
   "license": "MIT",
   "devDependencies": {
+    "apidoc": "^0.17.6",
     "babel-eslint": "^8.0.3",
     "babel-preset-env": "^1.6.1",
     "eslint": "^4.12.1",
@@ -33,5 +36,9 @@
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-import": "^2.8.0",
     "sails-hook-babel": "^6.0.3"
+  },
+  "apidoc": {
+    "title": "Sails Development Environment",
+    "url": "https://localhost:1337"
   }
 }
