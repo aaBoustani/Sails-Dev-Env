@@ -1,3 +1,17 @@
 {
-    "ignore": ["apidoc/", "README"]
+    "ignore": [
+      ".editorconfig",
+      ".eslintrc",
+      ".gitignore",
+      ".eslintignore",
+      "apidoc/",
+      "README"
+    ],
+    "verbose": true,
+    "execMap": {
+      "js": "node --harmony"
+    },
+    "env": {
+      "NODE_ENV": "development"
+    }
 }
